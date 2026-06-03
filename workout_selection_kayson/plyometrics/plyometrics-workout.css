@@ -1,0 +1,92 @@
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+
+.workout-number {
+    font-size: 40px;
+    border: 3px solid white;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    color: white;
+    background-color: rgb(59, 90, 68);
+    align-self: flex-start;
+}
+
+.excersise-name{
+    font-size: 28px;
+    color: white;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.excersise-info{
+    font-size: 5px;
+    color: white;
+    font-weight: bold;
+    margin-left: 0px;
+}
+
+.description{
+    font-size: 18px;
+}
+
+.reps-number,
+.total-sets{
+    margin-top: 6px; 
+    gap: 8px;
+    display: flex;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 4px 12px 4px;
+    border: 3px solid white;
+    display: inline-block;
+    margin-right: 15px;
+    background-color: rgb(59, 90, 68);
+}
+
+.excersise-block{
+    background-color: rgb(15, 43, 23);
+    border-radius: 14px;
+    margin: 20px auto;
+    width: 450px;
+    overflow: hidden;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.done-button{
+    background-color: rgb(15, 43, 23);
+    border-radius: 14px;
+    margin: auto;
+    width: 450px;
+    overflow: hidden;
+    display: flex;
+    gap: 15px;
+    text-align: center;
+    padding: 15px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+a{
+    font-style: bold;
+    text-decoration: none;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
